@@ -54,7 +54,7 @@ Hands-on exercises to master your skills:
 
 1. **For Interview Preparation**: Start with the [Interview Preparation](/docs/interview-preparation/senior-qa-interview-questions-bank) section
 2. **For Learning QA**: Begin with [QA Philosophy](/docs/qa-philosophy/quality-guardian-manifesto)
-3. **For Implementation**: Check the [90-Day Roadmap](/docs/implementation-roadmap/90-day-quality-roadmap)
+3. **For Implementation**: Check the [90-Day Roadmap](/docs/implementation-roadmap/day-quality-roadmap)
 4. **For Quick Reference**: Use the [QA Master Learning One-Pager](/docs/qa-master-learning-onepager)
 
 ## 💡 Your Journey to QA Excellence

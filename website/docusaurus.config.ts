@@ -85,15 +85,15 @@ const config: Config = {
           items: [
             {
               label: 'Interview Preparation',
-              to: '/docs/interview-preparation',
+              to: '/docs/interview-preparation/senior-qa-interview-questions-bank',
             },
             {
               label: 'QA Philosophy',
-              to: '/docs/qa-philosophy',
+              to: '/docs/qa-philosophy/quality-guardian-manifesto',
             },
             {
               label: 'Best Practices',
-              to: '/docs/best-practices',
+              to: '/docs/best-practices/API-Testing-Excellence',
             },
           ],
         },
@@ -102,15 +102,15 @@ const config: Config = {
           items: [
             {
               label: 'Testing Methodology',
-              to: '/docs/testing-methodology',
+              to: '/docs/testing-methodology/testing-phases-complete',
             },
             {
               label: 'Implementation Roadmap',
-              to: '/docs/implementation-roadmap',
+              to: '/docs/implementation-roadmap/day-quality-roadmap',
             },
             {
               label: 'Practice Labs',
-              to: '/docs/practice-labs',
+              to: '/docs/practice-labs/foundation-labs',
             },
           ],
         },
@@ -129,7 +129,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['java', 'typescript', 'javascript', 'python', 'bash', 'yaml', 'json', 'xml', 'gherkin'],
+      additionalLanguages: ['java', 'typescript', 'javascript', 'python', 'bash', 'yaml', 'json', 'gherkin'],
     },
     // Search will be configured later after resolving MDX issues
   } satisfies Preset.ThemeConfig,
