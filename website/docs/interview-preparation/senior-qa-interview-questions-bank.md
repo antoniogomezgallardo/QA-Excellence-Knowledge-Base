@@ -1473,11 +1473,11 @@ echo "Recommended SLA: 80% of breaking point = $((vus * 80 / 100)) concurrent us
 
 | User Journey | Business Impact | Target Response Time | Max Acceptable | Error Rate SLA |
 |-------------|----------------|-------------------|----------------|----------------|
-| Login | Critical | <200ms | <500ms | <0.1% |
-| Search | High | <300ms | <800ms | <0.5% |
-| Checkout | Critical | <400ms | <1000ms | <0.01% |
-| Browse Catalog | Medium | <500ms | <1500ms | <1% |
-| Profile Update | Low | <1000ms | <3000ms | <2% |
+| Login | Critical | under 200ms | under 500ms | under 0.1% |
+| Search | High | under 300ms | under 800ms | under 0.5% |
+| Checkout | Critical | under 400ms | under 1000ms | under 0.01% |
+| Browse Catalog | Medium | under 500ms | under 1500ms | under 1% |
+| Profile Update | Low | under 1000ms | under 3000ms | under 2% |
 
 **Implementation in Tests**:
 ```javascript

@@ -385,7 +385,7 @@ Where:
 | Critical (>75) | Exhaustive testing | 100% |
 | High (50-75) | Comprehensive testing | 90% |
 | Medium (25-50) | Standard testing | 70% |
-| Low (<25) | Basic testing | 50% |
+| Low (under 25) | Basic testing | 50% |
 
 ## 🔮 Future-Proof Testing Principles
 

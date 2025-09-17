@@ -1585,7 +1585,7 @@ run_tests_in_parallel() {
 ## 🎯 Key Takeaways
 
 1. **Quality Gates are Essential** - Automated enforcement prevents bad code reaching production
-2. **Fast Feedback is Critical** - Aim for <10 minute feedback on commits
+2. **Fast Feedback is Critical** - Aim for under 10 minute feedback on commits
 3. **Progressive Validation** - Balance speed with thoroughness through stages
 4. **Parallelize Everything** - Modern CI/CD thrives on parallel execution
 5. **Monitor Pipeline Health** - Track metrics to identify improvement opportunities

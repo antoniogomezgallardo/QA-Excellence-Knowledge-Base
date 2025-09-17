@@ -31,21 +31,21 @@ graph TB
 
 | KPI | Formula | Target | Frequency |
 |-----|---------|--------|-----------|
-| **Quality Score** | Weighted average of all metrics | >85% | Daily |
-| **Customer Satisfaction** | NPS + Support Tickets | >70 NPS | Weekly |
-| **Release Confidence** | Successful Releases / Total | >95% | Per Release |
-| **Cost of Quality** | Prevention + Appraisal + Failure costs | <20% of Dev Cost | Monthly |
-| **Time to Market** | Feature Request → Production | <30 days | Monthly |
+| **Quality Score** | Weighted average of all metrics | over 85% | Daily |
+| **Customer Satisfaction** | NPS + Support Tickets | over 70 NPS | Weekly |
+| **Release Confidence** | Successful Releases / Total | over 95% | Per Release |
+| **Cost of Quality** | Prevention + Appraisal + Failure costs | under 20% of Dev Cost | Monthly |
+| **Time to Market** | Feature Request → Production | under 30 days | Monthly |
 
 ### Tier 2: Management Metrics (Team Lead View)
 
 | Metric | Formula | Good | Warning | Critical |
 |--------|---------|------|---------|----------|
-| **Defect Escape Rate** | Prod Bugs / Total Bugs × 100 | <5% | 5-10% | >10% |
-| **MTTR** | Σ(Recovery Time) / Incidents | <2h | 2-4h | >4h |
-| **Test Coverage** | Covered Lines / Total Lines × 100 | >80% | 60-80% | <60% |
-| **Automation Rate** | Automated Tests / Total Tests × 100 | >70% | 50-70% | <50% |
-| **Sprint Quality** | Stories without Bugs / Total × 100 | >90% | 75-90% | <75% |
+| **Defect Escape Rate** | Prod Bugs / Total Bugs × 100 | under 5% | 5-10% | over 10% |
+| **MTTR** | Σ(Recovery Time) / Incidents | under 2h | 2-4h | over 4h |
+| **Test Coverage** | Covered Lines / Total Lines × 100 | over 80% | 60-80% | under 60% |
+| **Automation Rate** | Automated Tests / Total Tests × 100 | over 70% | 50-70% | under 50% |
+| **Sprint Quality** | Stories without Bugs / Total × 100 | over 90% | 75-90% | under 75% |
 
 ### Tier 3: Team Metrics (Daily Operations)
 
@@ -78,28 +78,28 @@ graph TB
 #### Defect Density
 ```
 Formula: Number of Defects / Size (KLOC or Story Points)
-Target: <5 defects per KLOC
+Target: under 5 defects per KLOC
 Use: Measure code quality trends
 ```
 
 #### Defect Detection Percentage (DDP)
 ```
 Formula: (Defects found before release / Total Defects) × 100
-Target: >95%
+Target: over 95%
 Use: Effectiveness of testing process
 ```
 
 #### Defect Leakage
 ```
 Formula: (Defects in Production / Total Defects) × 100
-Target: <5%
+Target: under 5%
 Use: Quality gate effectiveness
 ```
 
 #### Defect Age
 ```
 Formula: Current Date - Defect Creation Date
-Target: Critical <1 day, High <3 days, Medium <7 days
+Target: Critical under 1 day, High under 3 days, Medium under 7 days
 Use: Response time efficiency
 ```
 
@@ -108,14 +108,14 @@ Use: Response time efficiency
 #### Test Effectiveness
 ```
 Formula: (Defects found by tests / Total defects) × 100
-Target: >85%
+Target: over 85%
 Use: Value of test suite
 ```
 
 #### Test Efficiency
 ```
 Formula: Number of defects found / Number of test cases executed
-Target: >0.05 (1 defect per 20 tests)
+Target: over 0.05 (1 defect per 20 tests)
 Use: Test quality measurement
 ```
 
@@ -129,7 +129,7 @@ Use: Completeness of testing
 #### Test Execution Rate
 ```
 Formula: (Executed tests / Planned tests) × 100
-Target: >95%
+Target: over 95%
 Use: Testing progress tracking
 ```
 
@@ -138,7 +138,7 @@ Use: Testing progress tracking
 #### Automation ROI
 ```
 Formula: (Time Saved - Automation Development Time) / Automation Development Time
-Target: >200% within 6 months
+Target: over 200% within 6 months
 Calculation Example:
 - Manual Test Time: 8 hours × 20 runs = 160 hours
 - Automation Dev Time: 40 hours
@@ -157,7 +157,7 @@ Ideal Distribution:
 #### Automation Stability
 ```
 Formula: (Stable Tests / Total Automated Tests) × 100
-Target: >95%
+Target: over 95%
 Use: Test reliability measurement
 ```
 
@@ -165,15 +165,15 @@ Use: Test reliability measurement
 
 #### Response Time Percentiles
 ```
-P50 (Median): <200ms
-P95: <1000ms
-P99: <3000ms
+P50 (Median): under 200ms
+P95: under 1000ms
+P99: under 3000ms
 ```
 
 #### Error Rate
 ```
 Formula: (Failed Requests / Total Requests) × 100
-Target: <0.1%
+Target: under 0.1%
 ```
 
 #### Throughput
@@ -187,13 +187,13 @@ Target: Based on SLA requirements
 #### Cycle Time
 ```
 Formula: Time from work started to deployment
-Target: <3 days for bugs, <5 days for features
+Target: under 3 days for bugs, under 5 days for features
 ```
 
 #### Lead Time
 ```
 Formula: Time from request to deployment
-Target: <7 days for bugs, <14 days for features
+Target: under 7 days for bugs, under 14 days for features
 ```
 
 #### Deployment Frequency
@@ -213,10 +213,10 @@ Measure: Deployments per time period
 ### Key Metrics
 | Metric | Current | Target | Trend |
 |--------|---------|--------|-------|
-| Customer Satisfaction | 72 NPS | >70 | ↑ |
-| Release Success Rate | 96% | >95% | → |
-| Production Incidents | 3/month | <5 | ↓ |
-| Cost of Quality | 18% | <20% | ↓ |
+| Customer Satisfaction | 72 NPS | over 70 | ↑ |
+| Release Success Rate | 96% | over 95% | → |
+| Production Incidents | 3/month | under 5 | ↓ |
+| Cost of Quality | 18% | under 20% | ↓ |
 
 ### Quality Score Breakdown
 - Code Quality: 85%

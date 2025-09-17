@@ -640,10 +640,10 @@ pipeline:
 
 | Metric | Formula | Target | Frequency |
 |--------|---------|--------|-----------|
-| **Defect Escape Rate** | Production bugs / Total bugs × 100 | <5% | Weekly |
-| **Test Coverage** | Covered requirements / Total × 100 | >80% | Daily |
-| **Automation ROI** | Time saved / Investment × 100 | >200% | Monthly |
-| **MTTR** | Σ Recovery time / Incidents | <2 hours | Weekly |
+| **Defect Escape Rate** | Production bugs / Total bugs × 100 | under 5% | Weekly |
+| **Test Coverage** | Covered requirements / Total × 100 | over 80% | Daily |
+| **Automation ROI** | Time saved / Investment × 100 | over 200% | Monthly |
+| **MTTR** | Σ Recovery time / Incidents | under 2 hours | Weekly |
 
 ## 🚀 Advanced Topics
 

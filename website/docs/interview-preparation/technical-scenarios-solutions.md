@@ -541,9 +541,9 @@ public class APITestingDashboardController {
 
 **Success Metrics**:
 - Service reliability: 99.9% uptime
-- Contract violations: <1% per week
-- Mean time to detection: <5 minutes
-- API test coverage: >90% of endpoints"
+- Contract violations: under 1% per week
+- Mean time to detection: under 5 minutes
+- API test coverage: over 90% of endpoints"
 
 ---
 
@@ -1309,10 +1309,10 @@ public class FrameworkGovernance {
 
 **Success Metrics & KPIs**:
 - **Adoption Rate**: 90% of teams using framework within 3 months
-- **Test Reliability**: <2% flaky test rate across all teams
+- **Test Reliability**: under 2% flaky test rate across all teams
 - **Productivity**: 40% reduction in test creation time
 - **Consistency**: 95% compliance with framework standards
-- **Support**: <24 hour response time for framework issues
+- **Support**: under 24 hour response time for framework issues
 
 **Implementation Phases**:
 1. **Phase 1** (Month 1): Core framework + 3 pilot teams

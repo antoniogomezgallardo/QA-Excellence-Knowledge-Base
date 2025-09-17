@@ -45,7 +45,7 @@ stakeholders on quality objectives and methods.
 
 ### Key Objectives
 - [ ] Ensure product meets business requirements
-- [ ] Minimize production defects to <5%
+- [ ] Minimize production defects to under 5%
 - [ ] Achieve 80% automated test coverage
 - [ ] Reduce time-to-market by 30%
 - [ ] Maintain quality score above 85%
@@ -95,9 +95,9 @@ The following are explicitly out of scope:
 | Objective | Description | Measure of Success |
 |-----------|-------------|-------------------|
 | **Functional Correctness** | Verify all features work as specified | 100% requirement coverage |
-| **Performance** | Ensure system meets SLAs | <200ms response time (P95) |
+| **Performance** | Ensure system meets SLAs | under 200ms response time (P95) |
 | **Security** | Validate security controls | Pass security audit |
-| **Usability** | Confirm user-friendly interface | >80% task completion rate |
+| **Usability** | Confirm user-friendly interface | over 80% task completion rate |
 | **Reliability** | System stability and recovery | 99.9% uptime |
 
 ## 3. Test Approach
